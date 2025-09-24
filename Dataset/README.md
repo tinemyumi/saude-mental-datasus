@@ -5,6 +5,8 @@ Este projeto utiliza os dados do SIH-SUS (Sistema de Informações Hospitalares 
 - Fonte oficial: [DATASUS - SIH](https://datasus.saude.gov.br/)
 - Script de download: [`setup.ipynb`](../setup.ipynb)
 
+Para acessar os arquivos baixados, consulte o link do Google Drive.
+https://drive.google.com/drive/folders/1T4dKuhFOq_MzreZ_mWcfEA2ebj-PZMfl?usp=drive_link
+
 ⚠️ **Atenção**: Os arquivos completos não estão incluídos aqui devido ao tamanho.  
-Apenas uma amostra (ex: `sih_sp_2015_01.parquet`) foi mantida nesta pasta como referência.  
 Para reproduzir todos os dados, execute o `setup.ipynb`.
