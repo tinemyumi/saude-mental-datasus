@@ -6,7 +6,7 @@ Este repositório contém os códigos em Python utilizados para:
 2. Enviar os dados para o Google Drive para armazenamento.
 3. Acessar os dados no Google Drive e manipulá-los em análises posteriores.
 
-## 🚀 Estrutura do repositório
+## 🚀 Estrutura dos arquivos
 
 - setup.ipynb → Script responsável por baixar os datasets do SIH-SUS utilizando pysus e enviá-los ao Google Drive.
 - acesso_dados.ipynb → Script para acessar os arquivos já armazenados no Google Drive e carregá-los em DataFrames do pandas.
@@ -14,8 +14,7 @@ Este repositório contém os códigos em Python utilizados para:
 ## 📦 Dependências
 
 Para executar os notebooks, instale as bibliotecas necessárias:
-
-!pip install pandas pysus
+- pip install pandas pysus
 
 ## 🔑 Como usar
 
