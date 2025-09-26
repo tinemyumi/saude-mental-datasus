@@ -15,7 +15,7 @@ Análise exploratória de dados sobre o acesso à saúde mental no estado de Sã
 
 - **Códigos Python (Notebooks):** Notebooks com a análise exploratória completa, visualizações e insights.
 
-- **Arquivos fontes:** Contêm cabeçalho com:
-  - Identificação completa dos membros do grupo;
-  - Síntese do conteúdo do arquivo;
-  - Histórico de alterações (data, autor e breve descrição).
+- **Arquivos fontes:** Todos os arquivos de código e relatórios incluem um cabeçalho com:
+- Identificação completa dos membros do grupo;
+- Síntese do conteúdo do arquivo;
+- Histórico de alterações (data, autor e breve descrição).
