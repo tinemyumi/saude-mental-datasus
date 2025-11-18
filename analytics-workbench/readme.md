@@ -8,7 +8,7 @@ Esta pasta reúne os notebooks de análises avançadas relacionadas a fatores so
 ## 📂 Estrutura dos arquivos
 
 - fatores_sociodemografico.ipynb
-- 
+- modelos_ML.ipynb
 
 ---
 
