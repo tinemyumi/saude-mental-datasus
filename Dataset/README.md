@@ -1,8 +1,14 @@
 # Dataset SIH-SUS
 
-## Descrição geral
+## 1. Descrição geral
 
-## Fontes de dados
+O dataset utilizado neste estudo é composto por registros de internações hospitalares do Sistema de Informações Hospitalares do SUS (SIH-SUS), integrando dados demográficos, administrativos e regionais provenientes do IBGE, do Cadastro Nacional de Estabelecimentos de Saúde (CNES) e da divisão regional de saúde do Estado de São Paulo. 
+
+Os dados abrangem o período de 2014 a 2024 e contemplam informações agregadas por município e por período, permitindo a análise da evolução das internações hospitalares ao longo do tempo, com ênfase na comparação entre os períodos pré e pós pandemia de COVID-19. 
+
+O conjunto de dados foi estruturado para apoiar análises estatísticas e temporais sobre padrões de internação, distribuição regional e possíveis impactos de eventos sanitários na demanda por serviços de saúde mental no Estado de São Paulo.
+
+## 2. Fontes de dados
 
 - SIH-SUS (Sistema de Informações Hospitalares do SUS), disponibilizados pelo DATASUS no período de 2014 a 2024;
 - Dados censitários disponibilizados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) e obtidos a partir do dataset “Population of Brazilian Municipalities” no Kaggle.
@@ -16,22 +22,22 @@
 - [Dados Abertos do Governo do Estado de São Paulo](https://dadosabertos.sp.gov.br/dataset/covid)
 
 
-## Período analisado
+## 3. Período analisado
 
-## Formato dos arquivos
+## 4. Formato dos arquivos
 
 - SIH-SUS: .parquet
 - IBGE: .xlsx
 - Estabelecimentos CNES: .xlsx
 - Divisão Regional de Saúde: .xlsx
 
-## Principais variáveis
+## 5. Principais variáveis
 
-## Processo de tratamento
+## 6. Processo de tratamento
 
-## Integração entre bases
+## 7. Integração entre bases
 
-## Limitações
+## 8. Limitações
 
 ## Reprodutibilidade
 
