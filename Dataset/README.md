@@ -24,12 +24,15 @@ O conjunto de dados foi estruturado para apoiar análises estatísticas e tempor
 
 ## 3. Período analisado
 
+O período analisado compreende os anos de 2014 a 2024. A escolha desse intervalo permite observar a evolução das internações hospitalares ao longo de uma década, contemplando tanto o período anterior à pandemia de COVID-19 quanto os anos posteriores à ela.
+
+Para fins analíticos, os dados foram agregados por ano, possibilitando comparações temporais entre os períodos pré-pandemia (2014–2019), durante a pandemia (2020–2022) e pós pandemia (2023 e 2024).
+
 ## 4. Formato dos arquivos
 
-- SIH-SUS: .parquet
-- IBGE: .xlsx
-- Estabelecimentos CNES: .xlsx
-- Divisão Regional de Saúde: .xlsx
+Os dados provenientes do SIH-SUS foram armazenados no formato Parquet, visando otimização de desempenho e maior eficiência no processamento de grandes volumes de dados.
+
+As bases auxiliares (dados populacionais do IBGE, informações dos estabelecimentos de saúde do CNES e a divisão regional de saúde) foram utilizadas no formato Excel (.xlsx), conforme disponibilizadas pelas respectivas fontes oficiais.
 
 ## 5. Principais variáveis
 
