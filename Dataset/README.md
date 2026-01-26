@@ -1,8 +1,8 @@
 # Dataset SIH-SUS
 
-## Origem dos dados 
+## Descrição geral
 
-Este projeto utiliza dados do 
+## Fontes de dados
 
 - SIH-SUS (Sistema de Informações Hospitalares do SUS), disponibilizados pelo DATASUS no período de 2014 a 2024;
 - Dados censitários disponibilizados pelo Instituto Brasileiro de Geografia e Estatística (IBGE) e obtidos a partir do dataset “Population of Brazilian Municipalities” no Kaggle.
@@ -16,13 +16,26 @@ Este projeto utiliza dados do
 - [Dados Abertos do Governo do Estado de São Paulo](https://dadosabertos.sp.gov.br/dataset/covid)
 
 
-📂 Para acessar os arquivos, consulte o link do [Google Drive](https://drive.google.com/drive/folders/1FyCnTO_WZZjEVLsrJwUCdFp7VTFcm5er?usp=sharing).
+## Período analisado
 
-⚠️ **Atenção**: Os arquivos completos não estão incluídos neste repositório devido ao tamanho.
-Para reproduzir os dados, execute os notebooks de acordo com o caminho dos arquivos disponibilizados na pasta do Google Drive.
+## Formato dos arquivos
 
-## Formato dos dados
 - SIH-SUS: .parquet
 - IBGE: .xlsx
 - Estabelecimentos CNES: .xlsx
 - Divisão Regional de Saúde: .xlsx
+
+## Principais variáveis
+
+## Processo de tratamento
+
+## Integração entre bases
+
+## Limitações
+
+## Reprodutibilidade
+
+📂 Para acessar os arquivos, consulte o link do [Google Drive](https://drive.google.com/drive/folders/1FyCnTO_WZZjEVLsrJwUCdFp7VTFcm5er?usp=sharing).
+
+⚠️ **Atenção**: Os arquivos completos não estão incluídos neste repositório devido ao tamanho.
+Para reproduzir os dados, execute os notebooks de acordo com o caminho dos arquivos disponibilizados na pasta do Google Drive.
