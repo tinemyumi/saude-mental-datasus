@@ -1,27 +1,27 @@
-## Dicionário de Variáveis
+# Dicionário de Variáveis
 
-| Nome do Campo | Descrição / Observações | Tipo do Dado |
-|--------------|--------------------------|--------------|
-| UF_ZI | Município gestor | object |
-| ANO_CMPT | Ano de processamento da AIH, no formato aaaa | int64 |
-| MES_CMPT | Mês de processamento da AIH, no formato mm | int64 |
-| NASC | Data de nascimento | datetime64 |
-| IDADE | Idade do paciente | int64 |
-| SEXO | Sexo do paciente | object |
-| RACA_COR | Raça/Cor do paciente | object |
-| ETNIA | Etnia do paciente, caso a raça/cor seja indígena | object |
-| IDENT | Identificação do tipo da AIH | object |
-| ESPEC | Especialidade do leito | object |
-| MUNIC_RES | Município de residência do paciente | object |
-| DIAG_PRINC | Código do diagnóstico principal (CID-10) | object |
-| DIAG_SECUN | Código do diagnóstico secundário (CID-10) | object |
-| CAR_INT | Caráter da internação | object |
-| COBRANCA | Motivo da saída/permanência | object |
-| MUNIC_MOV | Município do estabelecimento | object |
-| CID_ASSO | CID causa associada | object |
-| CID_MORTE | CID da morte | object |
-| COMPLEX | Complexidade | object |
-| DI_INTER | Data de internação, no formato aaaammdd | datetime64 |
-| DT_SAIDA | Data de saída, no formato aaaammdd | datetime64 |
-| QT_DIARIAS | Quantidade de diárias | int64 |
-| DIAS_PERM | Dias de permanência | int64 |
+| Nome do Campo | Descrição / Observações                          | Tipo do Dado |
+| ------------- | ------------------------------------------------ | ------------ |
+| UF_ZI         | Município gestor                                 | object       |
+| ANO_CMPT      | Ano de processamento da AIH, no formato aaaa     | int64        |
+| MES_CMPT      | Mês de processamento da AIH, no formato mm       | int64        |
+| NASC          | Data de nascimento                               | datetime64   |
+| IDADE         | Idade do paciente                                | int64        |
+| SEXO          | Sexo do paciente                                 | object       |
+| RACA_COR      | Raça/Cor do paciente                             | object       |
+| ETNIA         | Etnia do paciente, caso a raça/cor seja indígena | object       |
+| IDENT         | Identificação do tipo da AIH                     | object       |
+| ESPEC         | Especialidade do leito                           | object       |
+| MUNIC_RES     | Município de residência do paciente              | object       |
+| DIAG_PRINC    | Código do diagnóstico principal (CID-10)         | object       |
+| DIAG_SECUN    | Código do diagnóstico secundário (CID-10)        | object       |
+| CAR_INT       | Caráter da internação                            | object       |
+| COBRANCA      | Motivo da saída/permanência                      | object       |
+| MUNIC_MOV     | Município do estabelecimento                     | object       |
+| CID_ASSO      | CID causa associada                              | object       |
+| CID_MORTE     | CID da morte                                     | object       |
+| COMPLEX       | Complexidade                                     | object       |
+| DI_INTER      | Data de internação, no formato aaaammdd          | datetime64   |
+| DT_SAIDA      | Data de saída, no formato aaaammdd               | datetime64   |
+| QT_DIARIAS    | Quantidade de diárias                            | int64        |
+| DIAS_PERM     | Dias de permanência                              | int64        |
