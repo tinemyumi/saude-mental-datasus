@@ -36,7 +36,7 @@ As bases auxiliares (dados populacionais do IBGE, informações dos estabelecime
 
 ## 5. Dicionário de variáveis
 
-O dicionário de variáveis se encontra em [link]
+O dicionário de variáveis se encontra em [dicionario-de-variaveis](https://github.com/tinemyumi/saude-mental-datasus/blob/main/Dataset/dicionario-de-variaveis.md)
 
 ## 6. Processo de tratamento
 
