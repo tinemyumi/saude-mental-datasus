@@ -34,13 +34,17 @@ Os dados provenientes do SIH-SUS foram armazenados no formato Parquet, visando o
 
 As bases auxiliares (dados populacionais do IBGE, informações dos estabelecimentos de saúde do CNES e a divisão regional de saúde) foram utilizadas no formato Excel (.xlsx), conforme disponibilizadas pelas respectivas fontes oficiais.
 
-## 5. Principais variáveis
+## 5. Dicionário de variáveis
+
+| Variável | Descrição | Fonte | Tipo |
+|--------|----------|-------|------|
 
 ## 6. Processo de tratamento
 
-## 7. Integração entre bases
-
-## 8. Limitações
+- Filtros aplicados
+- Padronizações
+- Exclusões
+- Agregações
 
 ## Reprodutibilidade
 
