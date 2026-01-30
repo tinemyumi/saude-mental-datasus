@@ -36,8 +36,7 @@ As bases auxiliares (dados populacionais do IBGE, informações dos estabelecime
 
 ## 5. Dicionário de variáveis
 
-| Variável | Descrição | Fonte | Tipo |
-|--------|----------|-------|------|
+O dicionário de variáveis se encontra em [link]
 
 ## 6. Processo de tratamento
 
