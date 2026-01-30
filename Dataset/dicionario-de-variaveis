@@ -1,7 +1,7 @@
 # Dicionário de Variáveis
 
 | Nome do Campo | Descrição / Observações                          | Tipo do Dado |
-| ------------- | ------------------------------------------------ | ------------ |
+|---------------|--------------------------------------------------|--------------|
 | UF_ZI         | Município gestor                                 | object       |
 | ANO_CMPT      | Ano de processamento da AIH, no formato aaaa     | int64        |
 | MES_CMPT      | Mês de processamento da AIH, no formato mm       | int64        |
