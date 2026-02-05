@@ -1,7 +1,7 @@
 # Análise de Internações Hospitalares – SIH-SUS (SP)
 
 ## Visão geral
-Projeto de análise temporal das internações hospitalares por saúde mental no Estado de São Paulo (2014–2024), comparando os  períodos pré e pós pandemia de COVID-19.
+Análise temporal das internações por saúde mental em São Paulo (2014–2024), avaliando o impacto da pandemia de COVID-19 e as disparidades socioeconômicas no acesso ao tratamento e na distribuição dos serviços de saúde mental.
 
 ## Fontes de dados
 - SIH-SUS (DATASUS)
@@ -10,7 +10,7 @@ Projeto de análise temporal das internações hospitalares por saúde mental no
 - Dados Abertos do Governo de SP
 
 ## Estrutura do repositório
-- /data/ → scripts e referências de dados
+- /dataset/ → scripts e referências de dados
 - /notebooks/ → notebooks de tratamento e análise
 - /docs/ → documentação e artigo do projeto
 
