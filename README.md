@@ -1,8 +1,8 @@
-# Acesso à Saúde Mental no Estado de São Paulo: Uma Análise Exploratória Baseada em Dados do DATASUS
+# Desigualdade em Saúde Mental no Estado de São Paulo: Uma Análise Espacial com Dados Públicos entre os Períodos de 2015 a 2025 e os Impactos da Pandemia
 
-## 🧑🏻‍💼 Integrantes
-- Larissa Yumi Tinem | RA: 10409094
-- Leo Tsuchida Hoçoya | RA: 10332699
+## 🧑🏻‍💼 Autoria
+- Larissa Yumi Tinem
+- Leo Tsuchida Hoçoya 
 
 ## 🎯 Objetivo 
 Análise exploratória de dados sobre o acesso à saúde mental no estado de São Paulo, utilizando informações do DATASUS. O projeto visa identificar padrões, tendências e possíveis lacunas no atendimento, com visualizações e insights baseados em Python.
