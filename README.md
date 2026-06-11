@@ -31,23 +31,48 @@ Utilizando dados públicos do DATASUS, CNES e IBGE, foram realizadas análises d
 ## Estrutura do Repositório
 
 ```text
-Dataset/
-├── Bases utilizadas no estudo
-
-Dicionário de Variáveis/
-├── SIH-SUS.md
-├── Estabelecimentos - CAPS.md
-├── População - IBGE.md
-├── DRS.md
-└── Base Analítica.md
-
-notebooks/
-├── Extração de dados
-├── Tratamento e integração
-├── Análise exploratória
-├── Análise temporal (ITS)
-├── Análise espacial (Moran, LISA e SAR)
-└── Visualizações
+saude-mental-datasus/
+│
+├── Dataset/
+│   └── Bases utilizadas no estudo
+│
+├── Dicionário de Variáveis/
+│   ├── SIH-SUS.md
+│   ├── Estabelecimentos - CAPS.md
+│   ├── População - IBGE.md
+│   ├── DRS.md
+│   └── Base Analítica.md
+│
+└── notebooks/
+    ├── 1.download_sihsus_ibge.ipynb
+    │   └── Extração dos dados do SIH-SUS e IBGE
+    │
+    ├── 2.concat_periodos_pandemia.ipynb
+    │   └── Consolidação dos períodos pré, pandemia e pós-pandemia
+    │
+    ├── 3.tratamento_dados_sihsus.ipynb
+    │   └── Limpeza e padronização dos dados
+    │
+    ├── 4.consolidacao_base_analitica.ipynb
+    │   └── Construção da base analítica final
+    │
+    ├── 5.visao_geral.ipynb
+    │   └── Estatísticas descritivas gerais
+    │
+    ├── 7.perfil_sociodemografico.ipynb
+    │   └── Análise de sexo, idade e raça/cor
+    │
+    ├── 8.diagnostico_internacao.ipynb
+    │   └── Análise dos grupos diagnósticos (CID-10)
+    │
+    ├── 9.analise_drs.ipynb
+    │   └── Fluxos intermunicipais e entre DRS
+    │
+    ├── 11.testes_estatisticos.ipynb
+    │   └── Shapiro-Wilk, Kruskal-Wallis e pós-teste de Dunn
+    │
+    └── 12.modelagens.ipynb
+        └── ITS, Moran Global, LISA e modelo SAR
 ```
 
 ## Metodologia
